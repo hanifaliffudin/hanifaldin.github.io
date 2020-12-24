@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hanif Aliffudin</title>
+  </head>
+  <body>
+    <header>
+      <!-- <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item px-3"><a href="#about">About</a></li>
+          <li class="nav-item px-3"><a href="#project">Project</a></li>
+        </ul>
+      </nav> -->
+    </header>
+    <main>
+      <section align="center" id="about" class="container-fluid">
+        <div id="intro" class="">
+          <figure class="figure">
+            <img
+              src="img/poto.jpg"
+              class="figure-img img-fluid rounded-circle w-25"
+            />
+          </figure>
+          <h1 class="h1"><strong class="">Hanif Aliffudin</strong></h1>
+          <h3>Front-End Web Developer</h3>
+        </div>
+        <div id="contact" class="mt-lg-5">
+          <div class="container d-flex justify-content-center">
+            <div class="row">
+              <div class="col-auto">
+                <a
+                  href="https://github.com/hanifaliffudin"
+                  class="py-2 px-2 rounded-2"
+                  ><i
+                    class="fa fa-github"
+                    style="font-size: 20px;"
+                    aria-hidden="true"
+                  ></i>
+                  Github</a
+                >
+              </div>
+              <div class="col-auto">
+                <a
+                  href="https://www.linkedin.com/in/hanifaliffudin/"
+                  class="py-2 px-2 rounded-2"
+                  ><i
+                    class="fa fa-linkedin-square"
+                    style="font-size: 20px;"
+                    aria-hidden="true"
+                  ></i>
+                  LinkedIn</a
+                >
+              </div>
+              <div class="col-auto">
+                <a
+                  href="https://facebook.com/hanifaliffudin"
+                  class="py-2 px-2 rounded-2"
+                  ><i
+                    class="fa fa-facebook-official"
+                    style="font-size: 20px;"
+                    aria-hidden="true"
+                  ></i>
+                  Facebook
+                </a>
+              </div>
+              <div class="col-auto">
+                <a
+                  href="https://twitter.com/nipalipudin"
+                  class="py-2 px-2 rounded-2"
+                  ><i
+                    class="fa fa-twitter"
+                    style="font-size: 20px;"
+                    aria-hidden="true"
+                  ></i>
+                  Twitter</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <button onclick="myWorks()" class="btn btn-outline-dark">
+            MY WORKS
+          </button>
+        </div>
+      </section>
+      <section id="project" class="container" style="display: none;">
+        <h1 align="center">My Works</h1>
+        <div class="row justify-content-center g-2">
+          <div class="col-auto p-2">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Hotel Sekawan</h5>
+                <p class="card-text">
+                  An app as final submission Web Programming course where users
+                  can make hotel reservations.
+                </p>
+                <a
+                  href="https://github.com/hanifaliffudin/ProyekAkhirPemweb.git"
+                  class="btn btn-outline-primary"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-auto p-2">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Cyclendar</h5>
+                <p class="card-text">
+                  An app where users can keep track of women's menstrual cycle
+                  and calculates menstruation.
+                </p>
+                <a
+                  href="http://ubproject.net/class/pux-2020-kelompok-b4/"
+                  class="btn btn-outline-primary"
+                  >Open Site</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-auto p-2">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Warung Bang Anip</h5>
+                <p class="card-text">
+                  An LINE Front-End Framework (LIFF) app where users can order
+                  some Food and Beverages menu.
+                </p>
+                <a
+                  href="https://warungbanganip.herokuapp.com/"
+                  class="btn btn-outline-primary"
+                  >Open Site</a
+                >
+                <a
+                  href="https://github.com/hanifaliffudin/warungBangAnip.git"
+                  class="btn btn-outline-primary"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div align="center" class="mt-5">
+          <button onclick="home()" class="btn btn-outline-dark">
+            <i class="fa fa-home" aria-hidden="true"></i> Home
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="index.js"></script>
+</html>

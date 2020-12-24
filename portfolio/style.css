@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(185, 185, 185);
+  color: rgb(0, 0, 0);
+}
+
+#intro {
+  margin-top: 100px;
+}
+
+#project {
+  margin-top: 200px;
+}
+
+#scroll {
+  margin-top: 100px;
+}
