@@ -1,3 +1,4 @@
+
 function myWorks() {
   document.querySelector('#about').style.display = "none";
   document.querySelector('#project').style.display = "block";
